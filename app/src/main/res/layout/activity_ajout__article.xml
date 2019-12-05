@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Ajout_Article"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/photos"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/white"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_add"
+                android:layout_marginLeft="125dp"
+                />
+
+
+        </RelativeLayout>
+
+        <View
+            android:background="@color/black"
+            android:layout_width = "fill_parent"
+            android:layout_height="1dip"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/titre"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/titre"
+                android:layout_toRightOf="@+id/titre"
+                android:padding="20dp"
+                android:hint="@string/des_titre"
+                android:textSize="12dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Description_titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/description"
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/Description_titre"
+                android:layout_toRightOf="@+id/Description_titre"
+                android:padding="20dp"
+                android:hint="@string/des_description"
+                android:textSize="12dp">
+
+            </EditText>
+        </RelativeLayout>
+
+        <View
+            android:background="@color/black"
+            android:layout_width = "fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/details"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Categorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/categorie"
+                android:textColor="@color/red"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/Categorie"
+                android:layout_toRightOf="@+id/Categorie"
+                android:padding="20dp"
+                android:hint="@string/des_categorie"
+                android:textSize="12dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Etat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/ETATS"
+                android:textColor="@color/red"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/Etat"
+                android:layout_toRightOf="@+id/Etat"
+                android:padding="20dp"
+                android:hint="@string/des_ETATS"
+                android:textSize="12dp"/>
+
+        </RelativeLayout>
+
+
+
+        <View
+            android:background="@color/black"
+            android:layout_width = "fill_parent"
+            android:layout_height="1dip"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/prix"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Prix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:padding="20dp"
+                android:text="@string/prix"
+                android:textColor="@color/red"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/Prix"
+                android:layout_toRightOf="@+id/Prix"
+                android:padding="20dp"
+                android:hint="EX : 29.900  "
+                android:textSize="12dp"
+                android:inputType="phone"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:hint="@string/des_prix"
+                android:textSize="14dp"
+                android:inputType="phone"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:background="@color/black"
+            android:layout_width = "fill_parent"
+            android:layout_height="1dip"
+            android:paddingTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/infor"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:hint="@string/nbp"
+                android:textSize="14dp"
+                android:inputType="phone"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Ville"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:padding="20dp"
+                android:text="@string/ville"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <EditText
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/Ville"
+                android:layout_toRightOf="@+id/Ville"
+                android:padding="20dp"
+                android:hint="EX : Tunis  "
+                android:textSize="12dp"
+                android:inputType="phone"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/vide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/butvide"
+                android:background="@color/colorrose"
+                android:onClick="vide"
+                android:textColorLink="@color/blue"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

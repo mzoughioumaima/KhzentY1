@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application Khzenty </string>
+    <string name="categorie"> Catégories </string>
+    <string name="femme"> Femme </string>
+    <string name="homme"> Homme </string>
+    <string name="bebe"> Bébé </string>
+    <string name="oublier">Mot de Passe Oublié ?</string>
+    <string name="registered_emailid">Entrer Votre Adresse E-Mail !</string>
+    <string name="email">E-mail</string>
+    <string name="retour">RETOUR</string>
+    <string name="valider">VALIDER</string>
+    <string name="bienvenue">BIENVENUE</string>
+    <string name="inscrire">S inscrire</string>
+    <string name="connecter">Se Connecter </string>
+    <string name="pass">Mot de Passe  </string>
+    <string name="show_pwd">Afficher Passe</string>
+    <string name="forget">Passe Oublier ! </string>
+    <string name="newmsg">Nouveau à Khzenty ? S inscrire .</string>
+    <string name="create">Création de Compte</string>
+    <string name="fullName">Votre Nom</string>
+    <string name="confpass">Confirmer votre Passe </string>
+    <string name="already_user">Avez Vous Un Compte ? S inscrire.</string>
+    <string name="mailerror">Entrer Votre E-mail ! </string>
+    <string name="photos">Photos</string>
+    <string name="description">Description</string>
+    <string name="titre">Titre</string>
+    <string name="des_titre">EX : Manteau noir , Robe</string>
+    <string name="des_description">EX : Je Vends Ce Collier , Couleur Dorè  , Marque Zara</string>
+    <string name="details">Détails</string>
+    <string name="des_categorie">EX : HOMME , FEMME , BEBE</string>
+    <string name="ETATS">Etats</string>
+    <string name="des_ETATS">EX : Neuf avec Etiquette , Neuf sans Etiquette ? Très Bon Etat ,Bon Etat , Satisfant   </string>
+    <string name="prix">Prix</string>
+    <string name="des_prix">PRIX D/ORIGINE / PRIX D/ACHAT  EX : 30.000</string>
+    <string name="infor">Informations de Contact !</string>
+    <string name="nbp">Numéro Téléphone</string>
+    <string name="ville">Ville</string>
+    <string name="butvide">Je Vide ! </string>
+    <string name="modep">Sélectionnez un mode de paiment </string>
+    <string name="paiemetaliv">Paiement à La Livraison</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_vente">Vendre</string>
+    <string name="menu_achat">Achat</string>
+    <string name="menu_recherche">Recherche</string>
+    <string name="sub_title">Menu</string>
+    <string name="Deconnexion">Déconnexion</string>
+    <string name="paiement">Mode de Paiement</string>
+    <string name="oublierp">Passe Oublier </string>
+    <string name="msg_recherche">Tapez Un Ou Plusieurs mots-clé</string>
+    <string name="desc">Khzenty est une application qui vous permet de acheter et de venter des articles que se soit pour les Hommes / Femmes et Bébes</string>
+
+</resources>

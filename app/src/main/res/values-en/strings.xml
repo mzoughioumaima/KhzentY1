@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application Khzenty </string>
+    <string name="categorie"> Category </string>
+    <string name="femme"> Women </string>
+    <string name="homme"> Man </string>
+    <string name="bebe"> Baby </string>
+    <string name="oublier">Forgot password?</string>
+    <string name="registered_emailid">Please enter your Registered Email </string>
+    <string name="email">Email</string>
+    <string name="retour">BACK</string>
+    <string name="valider">SUBMIT</string>
+    <string name="bienvenue">WELCOME</string>
+    <string name="inscrire">SignUp</string>
+    <string name="connecter">SignIn </string>
+    <string name="pass">Password  </string>
+    <string name="show_pwd">Show Password</string>
+    <string name="forget">Forget Password ! </string>
+    <string name="newmsg">New to Khzenty ? Sign Up.</string>
+    <string name="create">Creation Your Compte</string>
+    <string name="fullName">Full Name</string>
+    <string name="confpass">Confirm Your Password </string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="mailerror">Please enter your email !</string>
+    <string name="photos">Photos</string>
+    <string name="description">Description</string>
+    <string name="titre">Title</string>
+    <string name="des_titre">EX: Black Coat, Dress</string>
+    <string name="des_description">EX: I Sell This Necklace, Golden Color, Brand Zara
+</string>
+    <string name="details">Details</string>
+    <string name="des_categorie">EX : MAN ,WOMEN , BABY</string>
+    <string name="ETATS">State</string>
+    <string name="des_ETATS">EX: New with Label, New without Label? Very good condition, Good condition, Satisfactory
+</string>
+    <string name="prix">Price</string>
+    <string name="des_prix">ORIGINAL PRICE / PURCHASE PRIC EX : 30.000</string>
+    <string name="infor">Contact information !</string>
+    <string name="nbp">Number Phone</string>
+    <string name="ville">City</string>
+    <string name="butvide">I empty! </string>
+    <string name="modep">Select a payment method</string>
+    <string name="paiemetaliv">Cash on delivery</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_vente">sell</string>
+    <string name="menu_achat">purchase</string>
+    <string name="menu_recherche">Research</string>
+    <string name="sub_title">Menu</string>
+    <string name="Deconnexion">Deconnexion</string>
+    <string name="paiement">Payment method</string>
+    <string name="oublierp">Forget Password </string>
+
+    <string name="msg_recherche">Search her </string>
+    <string name="desc"> Khzenty is an application that allows you to buy and sell items for Men / Women and Babies </string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsi32g14.khzenty">
+<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vetement_homme"
+            android:label="@string/homme"></activity>
+        <activity android:name=".recherche" />
+        <activity android:name=".vetement_femme"
+            android:label="@string/femme"/>
+
+        <activity android:name=".vetement_bebe"
+            android:label="@string/bebe"/>
+        <activity android:name=".Login"
+            android:label="@string/connecter"/>
+        <activity android:name=".Paiement_Article"
+            android:label="@string/paiement"/>
+        <activity android:name=".Ajout_Article"
+            android:label="@string/butvide"/>
+        <activity android:name=".Categorie"
+            android:label="@string/categorie"/>
+        <activity android:name=".Forget_pass"
+            android:label="@string/forget"/>
+        <activity android:name=".Logup"
+            android:label="@string/inscrire"/>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Home_accueil">
+        <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "755722028274",
+    "firebase_url": "https://khzenty.firebaseio.com",
+    "project_id": "khzenty",
+    "storage_bucket": "khzenty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755722028274:android:11766229d06a0090febc6b",
+        "android_client_info": {
+          "package_name": "com.dsi32g14.khzenty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755722028274-4r2e5kssec6r2c5ibid26tbcpgsbcmn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsi32g14.khzenty",
+            "certificate_hash": "dce881fb842e9c4325a8e31e28fd40d16a3e77a9"
+          }
+        },
+        {
+          "client_id": "755722028274-r934mj77mu42k0ob5cv40fspa2ji5vsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPxBbYlc0j5V0DU9ZlCbIocqVxedxB9f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755722028274-r934mj77mu42k0ob5cv40fspa2ji5vsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
